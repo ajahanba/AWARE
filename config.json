@@ -1,5 +1,5 @@
 [{
-   "schedule_id":"binge_drinking",
+   "schedule_id":"daily",
    "hours":[20,21,23],
    "randomize":0,
    "context":["ACTION_AWARE_BATTERY_CHARGING"],
@@ -7,31 +7,71 @@
    "expiration":10,
    "end_date":"12-30-2025",
    "notification_title":"AWARE ESM",
-   "notification_body":"Did you drink alcohol yesterday?",
+   "notification_body":"Social Distancing Study: Tell us how your day went today",
    "interface":0,
    "esms":[
-       {"esm": {
-           "esm_type": 1,
-           "esm_title":"How many standard drinks did you have during this period?",
-           "esm_instructions":"",
-           "esm_submit":"Submit",
-           "esm_expiration_threshold": 60,
-           "esm_trigger": "esm_basic_test_1",
-           "esm_na": 0
-           }
-       },
-       {"esm": {
+      
+          {"esm": {
            "esm_type": 2,
-           "esm_title":"Did you drink alcohol yesterday?",
-           "esm_instructions":"If you select \"no\" for this question, skip for the following questions",
-           "esm_radios":["Yes","No"],
+           "esm_title":"I am currently self-isolating (e.g., staying home) as a result of COVID-19.",
+           "esm_instructions":"",
+           "esm_radios":["No, not at all","Yes, slightly (leaving my house but less than usual)","Yes, I am not leaving my house at all","Yes, I am not leaving my house and I am isolating myself from people in my house",""],
            "esm_submit":"Next",
            "esm_expiration_threshold": 0,
            "esm_trigger": "esm_basic_test_2",
            "esm_na": 0
            }
+       },  
+      
+      
+      
+      
+      {"esm": {
+      "esm_type": 4,
+      "esm_title":"ESM Likert",
+      "esm_instructions":"I felt understood/cared for by others today.",
+       "esm_likert_max":7,
+	   "esm_likert_max_label":"Strongly Agree",
+	   "esm_likert_min_label":"Strongly Disagree",
+	   "esm_likert_step":1,
+	   "esm_submit":"Next",
+           "esm_expiration_threshold": 60,
+           "esm_trigger": "esm_basic_test_4"
+           }
+       },
+       {"esm": {
+           "esm_type": 6,
+           "esm_title":"How many people did you have in-person social interactions with today?",
+           "esm_scale_min": 0,
+           "esm_scale_max": 15,
+           "esm_scale_start": 2,
+           "esm_scale_max_label": "15",
+           "esm_scale_min_label": "0",
+           "esm_scale_step": 1,
+           "esm_submit":"Submit",
+           "esm_expiration_threshold": 0,
+           "esm_trigger": "esm_ppl_met",
+           "esm_na": 0
+           }
+       },
+            {"esm": {
+           "esm_type": 6,
+           "esm_title":"How many people did you have phone, online or other social-media based interactions with today?
+?",
+           "esm_scale_min": 0,
+           "esm_scale_max": 10,
+           "esm_scale_start": 2,
+           "esm_scale_max_label": "15",
+           "esm_scale_min_label": "0",
+           "esm_scale_step": 1,
+           "esm_submit":"Submit",
+           "esm_expiration_threshold": 0,
+           "esm_trigger": "esm_ppl_met",
+           "esm_na": 0
+           }
        }
       
+
     ]
   }
 ]
