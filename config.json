@@ -1,6 +1,6 @@
 [{
    "schedule_id":"daily",
-   "hours":[20,21,23],
+   "hours":[10,11,20,21,23],
    "randomize":0,
    "context":["ACTION_AWARE_BATTERY_CHARGING"],
    "start_date":"9-01-2016",
