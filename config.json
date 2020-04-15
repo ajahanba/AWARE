@@ -1,11 +1,12 @@
-[{“schedule_id”:”daily_demographic",
-   “hours”:[8,9,10,11,12,13,14,15,17,18,19,20,21,23],
-   "randomize":5,
+[{"schedule_id":"binge_drinking",
+   "hours":[17,18,19],
+   "randomize":0,
+   "context":["ACTION_AWARE_BATTERY_CHARGING"],
    "start_date":"9-01-2016",
    "expiration":0,
    "end_date":"12-30-2025",
    "notification_title":"AWARE ESM",
-   "notification_body":"Social Distancing Study: likert",
+   "notification_body":"Did you drink alcohol yesterday?",
    "interface":0,
   "esms":[
 
