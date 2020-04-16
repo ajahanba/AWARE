@@ -1,5 +1,5 @@
 [{"schedule_id":"binge_drinking",
-   "hours":[17,18,19,20],
+   "hours":[17,18,19:40,20],
    "randomize":0,
    "start_date":"9-01-2016",
    "expiration":20,
