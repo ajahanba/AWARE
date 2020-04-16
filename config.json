@@ -1,7 +1,7 @@
-[{“schedule_id”:"daily_social_distancing",
-   “hours”:[20],
+[{"schedule_id":"daily_social_distancing",
+   "hours”:[20],
    "randomize":2,
-   “start_date”:"04-01-2020",
+   "start_date":"04-01-2020",
    "expiration":240,
    "end_date":"06-30-2020",
    "notification_title":"AWARE ESM",
@@ -127,10 +127,10 @@
 
 
 
-{“schedule_id”:"demogrpahic_onceonly",
-   “hours”:[],
+{"schedule_id":"demogrpahic_onceonly",
+   "hours":[10,11,12],
    "randomize":2,
-   “start_date":"04-01-2020",
+   "start_date":"04-01-2020",
    "expiration":60,
    "end_date":"04-30-2025",
    "notification_title":"AWARE ESM",
@@ -166,7 +166,7 @@
 
 {"esm": {
            "esm_type": 2,
-           “esm_title”:”What is your current gender identity?“,
+           "esm_title":”What is your current gender identity?“,
            "esm_instructions":"",
            “esm_radios”:["Female“, ”Male" ,"Transgender Male/Female-to-Male (FTM) 
 “, “Transgender Female/Male-to-Female (MTF)”, “Genderqueer (neither exclusively male nor female) ”, “other”],
