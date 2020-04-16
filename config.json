@@ -1,79 +1,26 @@
 [{"schedule_id":"binge_drinking",
-   "hours":[17,18,19],
+   "hours":[17,18,19,20],
    "randomize":0,
    "start_date":"9-01-2016",
-   "expiration":0,
+   "expiration":20,
    "end_date":"12-30-2025",
    "notification_title":"AWARE ESM",
    "notification_body":"Did you drink alcohol yesterday?",
    "interface":0,
-  "esms":[
-
-       {"esm": {
-           "esm_type": 4,
-           "esm_title":"I over-analysed situations to the point where it’s unhelpful to me",
-          "esm_likert_max":7,
-	   "esm_likert_max_label":"Very frequenty today",
-	   "esm_likert_min_label":"Almost never",
-	   "esm_likert_step":1,
-	   "esm_submit":"Next",
-           "esm_expiration_threshold": 60
-           }
-       },
-	   
-	   {"esm": {
-           "esm_type": 4,
-           "esm_title":"My thoughts cause me distress or emotional pain",
-          "esm_likert_max":7,
-	   "esm_likert_max_label":"Very frequenty today",
-	   "esm_likert_min_label":"Almost never",
-	   "esm_likert_step":1,
-	   "esm_submit":"Next",
-           "esm_expiration_threshold": 60,
-           "esm_trigger": "esm_basic_test_4"
-           }
-       },
-	   
-	  {"esm": {
-           "esm_type": 4,
-           "esm_title":"I find myself preoccupied with the future or the past",
-          "esm_likert_max":7,
-	   "esm_likert_max_label":"Very frequenty today",
-	   "esm_likert_min_label":"Almost never",
-	   "esm_likert_step":1,
-	   "esm_submit":"Next",
-           "esm_expiration_threshold": 60,
-           "esm_trigger": "esm_basic_test_4"
-           }
-	  },
-	      
-      {"esm": {
-      "esm_type": 4,
-      "esm_title":"ESM Likert",
-      "esm_instructions":"I felt understood/cared for by others today.",
-       "esm_likert_max":7,
-	   "esm_likert_max_label":"Strongly Agree",
-	   "esm_likert_min_label":"Strongly Disagree",
-	   "esm_likert_step":1,
-	   "esm_submit":"Next",
-           "esm_expiration_threshold": 60,
-           "esm_trigger": "esm_basic_test_4"
-           }
-       },
-      {"esm": {
-      "esm_type": 4,
-      "esm_title":"ESM Likert",
-      "esm_instructions":"I felt outcasted and alone in my interactions with others today.",
-       "esm_likert_max":7,
-	   "esm_likert_max_label":"Strongly Agree",
-	   "esm_likert_min_label":"Strongly Disagree",
-	   "esm_likert_step":1,
-	   "esm_submit":"Next",
-           "esm_expiration_threshold": 60,
-           "esm_trigger": "esm_basic_test_4"
-           }
-       }
-       ]
+  "esms":[{"esm": {
+                            "esm_type": 4,
+                            "esm_title":"ESM Likert",
+                            "esm_instructions":"User rating 1 to 5 or 7 at 1 step increments.",
+                            "esm_likert_max":5,
+                            "esm_likert_max_label":"Great",
+                            "esm_likert_min_label":"Bad",
+                            "esm_likert_step":1,
+                            "esm_submit":"Next",
+                            "esm_expiration_threshold": 60,
+                            "esm_trigger": "bd-q7"
+  	}
+	  }
+	  ]
 
   }
 
