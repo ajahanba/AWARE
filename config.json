@@ -1,5 +1,5 @@
 [{"schedule_id":"daily_social_distancing",
-   "hours”:[20],
+   "hours”:[13,14,15,16,17,18,19,20],
    "randomize":2,
    "start_date":"04-01-2020",
    "expiration":240,
@@ -193,9 +193,9 @@
 
 {"esm": {
            "esm_type": 3,
-           “esm_title”:” Do you consider yourself to be a: “,
-           “esm_instructions”:”You can choose multiple options.”,
-           “esm_checkbox”:[“International student“, ”Veteran" ,”NCAA athlete", “Student with physical disability ”, “First-generation student (neither parent has a four year degree) ”, “Low Income (receiving financial aid”,”prefer not to answer”],
+           "esm_title":" Do you consider yourself to be a: ",
+            "esm_instructions":"You can choose multiple options.",
+            "esm_checkbox":[“International student“, ”Veteran" ,”NCAA athlete", “Student with physical disability ”, “First-generation student (neither parent has a four year degree) ”, “Low Income (receiving financial aid”,”prefer not to answer”],
            "esm_submit":"Next",
            "esm_expiration_threshold": 0,
            "esm_trigger": "esm_basic_test_2",
@@ -205,9 +205,9 @@
 
 {"esm": {
            "esm_type": 2,
-           “esm_title”:” What is your current employment status: “,
-           “esm_instructions”” .”,
-           “esm_radios”:[“Employed - part-time, work study student “, ”Employed - full-time" ,”Not currently employed”],
+           "esm_title":" What is your current employment status: ",
+           "esm_instructions":"",
+           "esm_radios”:["Employed - part-time, work study student", "Employed - full-time" ,"Not currently employed"],
            "esm_submit":"Next",
            "esm_expiration_threshold": 0,
            "esm_trigger": "esm_basic_test_2",
@@ -218,15 +218,15 @@
 
 {"esm": {
            "esm_type": 2,
-           “esm_title”:” What was your employment status before the pandemic: “,
-           “esm_instructions”” .”,
-           “esm_radios”:[“Employed - part-time, work study student “, ”Employed - full-time" ,”Not employed”],
+           "esm_title":"What was your employment status before the pandemic:",
+           "esm_instructions":"",
+           "esm_radios”:["Employed part time"," work study student", "Employed  full time" ,"Not employed"],
            "esm_submit":"Next",
            "esm_expiration_threshold": 0,
            "esm_trigger": "esm_basic_test_2",
            "esm_na": 0
            }
-},
+}
 
  ]
 
