@@ -30,18 +30,18 @@
                         "No, not at all",
                         "Yes, slightly (leaving my house but less than usual)",
                         "Yes, I am not leaving my house at all",
-                        "Yes, I am not leaving my house and I am isolating myself from people in my house"
+                        "Yes, I am isolating myself from everyone including people in my house"
                     ],
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
                 "esm": {
                     "esm_type": 6,
-                    "esm_title": "How many people did you have in-person social interactions with today?",
+                    "esm_title": "How many people did you have in-person interactions with today?",
                     "esm_scale_min": 0,
                     "esm_scale_max": 15,
                     "esm_scale_start": 2,
@@ -51,7 +51,7 @@
                     "esm_submit": "Submit",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_ppl_met",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
@@ -61,48 +61,23 @@
                     "esm_scale_min": 0,
                     "esm_scale_max": 10,
                     "esm_scale_start": 2,
-                    "esm_scale_max_label": "15",
+                    "esm_scale_max_label": "30",
                     "esm_scale_min_label": "0",
                     "esm_scale_step": 1,
                     "esm_submit": "Submit",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_ppl_met",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
                 "esm": {
                     "esm_type": 4,
-                    "esm_title": "I over-analysed situations to the point where it’s unhelpful to me",
+                    "esm_title": "I felt outcasted and alone in my interactions with others today.",
+                    "esm_instructions": "",
                     "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very frequenty today",
-                    "esm_likert_min_label": "Almost never",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "esm_basic_test_4"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "My thoughts cause me distress or emotional pain",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very frequenty today",
-                    "esm_likert_min_label": "Almost never",
-                    "esm_likert_step": 1,
-                    "esm_submit": "Next",
-                    "esm_expiration_threshold": 60,
-                    "esm_trigger": "esm_basic_test_4"
-                }
-            },
-            {
-                "esm": {
-                    "esm_type": 4,
-                    "esm_title": "I find myself preoccupied with the future or the past",
-                    "esm_likert_max": 7,
-                    "esm_likert_max_label": "Very frequenty today",
-                    "esm_likert_min_label": "Almost never",
+                    "esm_likert_max_label": "Strongly Agree",
+                    "esm_likert_min_label": "Strongly Disagree",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 60,
@@ -126,17 +101,44 @@
             {
                 "esm": {
                     "esm_type": 4,
-                    "esm_title": "I felt outcasted and alone in my interactions with others today.",
-                    "esm_instructions": "",
+                    "esm_title": "I over-analysed situations to the point where it’s unhelpful to me",
                     "esm_likert_max": 7,
-                    "esm_likert_max_label": "Strongly Agree",
-                    "esm_likert_min_label": "Strongly Disagree",
+                    "esm_likert_max_label": "Very frequenty today",
+                    "esm_likert_min_label": "Almost never",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "esm_basic_test_4"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "My thoughts cause me distress or emotional pain today",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very frequenty today",
+                    "esm_likert_min_label": "Almost never",
+                    "esm_likert_step": 1,
+                    "esm_submit": "Next",
+                    "esm_expiration_threshold": 60,
+                    "esm_trigger": "esm_basic_test_4"
+                }
+            },
+            {
+                "esm": {
+                    "esm_type": 4,
+                    "esm_title": "I find myself preoccupied with the future or the past",
+                    "esm_likert_max": 7,
+                    "esm_likert_max_label": "Very frequenty today",
+                    "esm_likert_min_label": "Almost never",
                     "esm_likert_step": 1,
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 60,
                     "esm_trigger": "esm_basic_test_4"
                 }
             }
+    
+            
         ]
     },
     {
@@ -144,7 +146,8 @@
         "hours": [
             10,
             11,
-            12
+            12,
+            13
         ],
         "randomize": 2,
         "start_date": "04-01-2020",
@@ -176,7 +179,7 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
@@ -195,7 +198,7 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
@@ -214,15 +217,15 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
                 "esm": {
-                    "esm_type": 2,
+                    "esm_type": 3,
                     "esm_title": "Who lives with you right now?",
                     "esm_instructions": "",
-                    "esm_radios": [
+                    "esm_checkboxes": [
                         "Spouse/partner",
                         "Children",
                         "Parents",
@@ -231,8 +234,8 @@
                     ],
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
-                    "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_trigger": "esm_basic_test_3",
+                    "esm_na": -1
                 }
             },
             {
@@ -252,7 +255,7 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
@@ -268,13 +271,13 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             },
             {
                 "esm": {
                     "esm_type": 2,
-                    "esm_title": "What was your employment status before the pandemic:",
+                    "esm_title": "What was your employment status BEFORE the pandemic:",
                     "esm_instructions": "",
                     "esm_radios": [
                         "Employed part time",
@@ -284,7 +287,7 @@
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
                     "esm_trigger": "esm_basic_test_2",
-                    "esm_na": 0
+                    "esm_na": -1
                 }
             }
         ]
