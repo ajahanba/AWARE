@@ -1,5 +1,6 @@
 [{"schedule_id":"daily_social_distancing",
    "hours":[12,13,14,15,16,17,18,19,20],
+  "context":[],
    "randomize":2,
    "start_date":"04-01-2020",
    "expiration":240,
