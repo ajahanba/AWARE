@@ -39,8 +39,7 @@
        },
             {"esm": {
            "esm_type": 6,
-           "esm_title":"How many people did you have phone, online or other social-media based interactions with today?
-?",
+           "esm_title":"How many people did you have phone, online or other social-media based interactions with today?",
            "esm_scale_min": 0,
            "esm_scale_max": 10,
            "esm_scale_start": 2,
@@ -122,113 +121,6 @@
 	   
 	   
 ]
-},
-
-
-
-
-{"schedule_id":"demogrpahic_onceonly",
-   "hours":[10,11,12],
-   "randomize":2,
-   "start_date":"04-01-2020",
-   "expiration":60,
-   "end_date":"04-30-2025",
-   "notification_title":"AWARE ESM",
-   "notification_body":"Demographic Questionnaire",
-   "interface":0,
-   "esms":[
-          {"esm": {
-           "esm_type": 2,
-           "esm_title”:”With which racial and ethnic group(s) do you identify? “,
-           "esm_instructions":"",
-           "esm_radios":["Alaska Native”,”American Indian”,”Hispanic, Latino, or Spanish Origin ”,”White”,”Asian”,”South Asian”, “East Asian”, “Black / African American“,”Black African ”,”Middle Eastern or North African”,”Native Hawaiian or Other Pacific Islande”, “Other” ],
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 0,
-           "esm_trigger": "esm_basic_test_2",
-           "esm_na": 0
-           }
-       },
-
-
-
-
- {"esm": {
-           "esm_type": 2,
-           "esm_title”:”What is your current gender identity?",
-           "esm_instructions":"",
-           "esm_radios":["Female", "Male" ,"Transgender Male/Female-to-Male (FTM)", "Transgender Female/Male-to-Female (MTF)", "Genderqueer (neither exclusively male nor female)", "other"],
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 0,
-           "esm_trigger": "esm_basic_test_2",
-           "esm_na": 0
-           }
-       },
-
-{"esm": {
-           "esm_type": 2,
-           "esm_title":'What is your current gender identity?",
-           "esm_instructions":"",
-           "esm_radios":["Female", "Male" ,"Transgender Male/Female-to-Male (FTM)", "Transgender Female/Male-to-Female (MTF)","Genderqueer (neither exclusively male nor female)","other"],
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 0,
-           "esm_trigger": "esm_basic_test_2",
-           "esm_na": 0
-           }
-},
-
-
-
-{"esm": {
-           "esm_type": 2,
-           "esm_title":"Who lives with you right now?",
-           "esm_instructions":"",
-           "esm_radios":["Spouse/partner", "Children" ,"Parents", "Other Relatives", "Non-relatives"],
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 0,
-           "esm_trigger": "esm_basic_test_2",
-           "esm_na": 0
-           }
-},
-
-{"esm": {
-           "esm_type": 3,
-           "esm_title":" Do you consider yourself to be a: ",
-            "esm_instructions":"You can choose multiple options.",
-            "esm_checkbox":["International student","Veteran" ,"NCAA athlete","Student with physical disability ","First-generation student (neither parent has a four year degree) ","Low Income (receiving financial aid","prefer not to answer"],
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 0,
-           "esm_trigger": "esm_basic_test_2",
-           "esm_na": 0
-           }
-},
-
-{"esm": {
-           "esm_type": 2,
-           "esm_title":" What is your current employment status: ",
-           "esm_instructions":"",
-           "esm_radios":["Employed - part-time"," work study student", "Employed - full-time" ,"Not currently employed"],
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 0,
-           "esm_trigger": "esm_basic_test_2",
-           "esm_na": 0
-           }
-},
-
-
-{"esm": {
-           "esm_type": 2,
-           "esm_title":"What was your employment status before the pandemic:",
-           "esm_instructions":"",
-           "esm_radios":["Employed part time"," work study student", "Employed  full time" ,"Not employed"],
-           "esm_submit":"Next",
-           "esm_expiration_threshold": 0,
-           "esm_trigger": "esm_basic_test_2",
-           "esm_na": 0
-           }
-}
-
- ]
-
 }
 
 
