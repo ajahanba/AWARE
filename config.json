@@ -240,14 +240,14 @@
                     "esm_type": 3,
                     "esm_title": " Do you consider yourself to be a: ",
                     "esm_instructions": "You can choose multiple options.",
-                    "esm_checkbox": [
+                    "esm_checkboxes": [
                         "International student",
                         "Veteran",
                         "NCAA athlete",
                         "Student with physical disability ",
                         "First-generation student (neither parent has a four year degree) ",
                         "Low Income (receiving financial aid",
-                        "prefer not to answer"
+                        "Prefer not to answer"
                     ],
                     "esm_submit": "Next",
                     "esm_expiration_threshold": 0,
@@ -262,7 +262,6 @@
                     "esm_instructions": "",
                     "esm_radios": [
                         "Employed - part-time",
-                        " work study student",
                         "Employed - full-time",
                         "Not currently employed"
                     ],
@@ -279,7 +278,6 @@
                     "esm_instructions": "",
                     "esm_radios": [
                         "Employed part time",
-                        " work study student",
                         "Employed  full time",
                         "Not employed"
                     ],
