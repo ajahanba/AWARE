@@ -2,15 +2,7 @@
     {
         "schedule_id": "daily_social_distancing",
         "hours": [
-            12,
-            13,
-            14,
-            15,
-            16,
-            17,
-            18,
-            19,
-            20
+            21
         ],
         "context":[],
         "randomize": 2,
@@ -144,17 +136,14 @@
     {
         "schedule_id": "demogrpahic_onceonly",
         "hours": [
-            10,
-            11,
-            12,
-            13
+            -1
         ],
         "randomize": 2,
         "start_date": "04-01-2020",
-        "expiration": 60,
+        "expiration": 6000,
         "end_date": "04-30-2025",
         "notification_title": "AWARE ESM",
-        "notification_body": "Demographic Questionnaire",
+        "notification_body": "Demographic Questionnaire (Once)",
         "interface": 0,
         "esms": [
             {
